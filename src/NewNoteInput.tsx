@@ -16,7 +16,7 @@ export const NewNoteInput: React.FC<NewNoteInputProps> = ({ addNote }) => {
     return (
         <div>
             <input type="text" placeholder="Enter Note" name="note" value={note} onChange={updateNote} />
-            <button onClick={onAddNoteClick}>Add Note </button>
+            <button onClick={onAddNoteClick}>Add Note ➕ </button>
         </div>
     )
 };
