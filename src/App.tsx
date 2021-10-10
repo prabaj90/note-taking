@@ -19,7 +19,7 @@ function App() {
       Note Taking App
       <NewNoteInput addNote={onAddNote} />
       <hr />
-      <ul>
+      <ul className="listStyle">
         {notes.map((note) => { return <li key={note}>{note}</li> })}
       </ul>
     </div>
